@@ -46,18 +46,18 @@ print(m,b)
 y_predicted=m*X+b
 print(y_predicted)
 ```
-![Screenshot 2025-02-27 094315](https://github.com/user-attachments/assets/e32d15a5-8079-4994-84fc-dad3cb9e179c)
 
 ```
 plt.scatter(X,Y)
 plt.plot(X,y_predicted,color='red')
 plt.show()
 ```
-![Screenshot 2025-02-27 094327](https://github.com/user-attachments/assets/9ebb6c80-8a76-4010-bb28-57e63c2f671a)
 
 ## Output:
 ![best fit line](sam.png)
 
+![Screenshot 2025-02-27 094315](https://github.com/user-attachments/assets/e32d15a5-8079-4994-84fc-dad3cb9e179c)
 
+![Screenshot 2025-02-27 094327](https://github.com/user-attachments/assets/9ebb6c80-8a76-4010-bb28-57e63c2f671a)
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
